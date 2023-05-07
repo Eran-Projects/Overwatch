@@ -1,0 +1,50 @@
+body{
+    font-family: 'Orbitron', sans-serif;
+    height: 1070px;
+    background: url(images/map-bg.jpg);
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.overwatch-logo{
+    height: 75px;
+}   
+
+.overwatch-logo img{
+    height: 100%;
+    margin: 10px;
+    
+}
+
+.charachter-text{
+    color: #fff;
+    font-size: 3em;
+    margin-top: 50px;
+    margin-left: -50px;
+    
+}
+
+.return img{
+    height: 50px;
+    margin: 13px;
+}
+
+.pics img{
+    cursor: pointer;
+    margin-top: 825px;
+    margin-left: 30px;
+    height: 100px;
+    border: 2px solid black;
+}
+
